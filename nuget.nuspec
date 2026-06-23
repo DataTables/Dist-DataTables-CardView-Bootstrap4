@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>1.0.0-beta.1</version>
+        <id>datatables.net-cardview-bs4</id>
+        <description>This is CardView for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>https://datatables.net</projectUrl>
+        <license type="file">License.txt</license>
+        <tags>Cards  Responsive  Bootstrap  Bootstrap4  Datatables table</tags>
+        <dependencies>
+            <dependency id="datatables.net-cardview" version="1.0.0-beta.1"/>
+            <dependency id="datatables.net-bs4" version="2.3.8"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+        <readme>Readme.md</readme>
+    </metadata>
+    <files>
+        <file src="Readme.md" target=""/>
+        <file src="js/cardView.bootstrap4.js" target="content\Scripts"/>
+        <file src="js/cardView.bootstrap4.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/cardView.bootstrap4.min.js" target="content\Scripts"/>
+        <file src="js/cardView.bootstrap4.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/cardView.bootstrap4.min.mjs" target="content\Scripts"/>
+        <file src="js/cardView.bootstrap4.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/cardView.bootstrap4.mjs" target="content\Scripts"/>
+        <file src="js/cardView.bootstrap4.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/cardView.bootstrap4.css" target="content\Content"/>
+        <file src="css/cardView.bootstrap4.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/cardView.bootstrap4.min.css" target="content\Content"/>
+        <file src="css/cardView.bootstrap4.min.css" target="contentFiles\any\any\wwwroot\css"/>
+    </files>
+</package>
