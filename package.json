@@ -5,7 +5,7 @@
     "module": "js/cardView.bootstrap4.mjs",
     "style": "css/cardView.bootstrap4.css",
     "types": "./types/cardView.bootstrap4.d.ts",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,7 +23,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-cardview": "1.0.1",
+        "datatables.net-cardview": "1.0.2",
         "datatables.net-bs4": "^3"
     },
     "author": {
